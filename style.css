@@ -1,10 +1,29 @@
-html, body{
-    width: 50%;
-    margin: 0 auto;
+ body{
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    background: url(images/5.jpg)  top center no-repeat;
+    background-size: cover;
+}
+
+.TO-DO-Cart{
+    border-radius: 10px;
+    width: 35vw;
+    height: 90vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
 }
 
 .container{
-    width: 360px;
+    margin: auto;
+    width: 400px;
 }
 
 #inputField{
